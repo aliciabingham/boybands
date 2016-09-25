@@ -21,7 +21,7 @@ var veggieElement = document.getElementById("vegetables");
 
 
 // Start looping
-for (var i = 0; i < bands.length; i += 1) {
+for (var i = 0; i < loopCount; i += 1) {
   currentBand = bands[i];
   bandElement.innerHTML += "<li>" + currentBand + "</li>";
 }
